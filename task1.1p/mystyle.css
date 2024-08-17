@@ -1,0 +1,122 @@
+
+.one {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+}
+.one a{
+    text-decoration: none;
+    color: blue;
+}
+.one a:hover {
+    color: rgba(204, 35, 204, 0.82);
+}
+.two{
+    padding: 10px;
+}
+header {
+    position: relative;
+    width: 100%;
+}
+header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    bottom: 85px; 
+    width: 99%;
+    background-color: rgba(0, 0, 0, 1); 
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+.text h3{
+    color: white;
+}
+header .text:hover {
+    opacity: 0.7;
+}
+section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+section h2, h4{
+    color: rgba(204, 35, 204, 0.82);
+}
+#about{
+    text-align: center;
+    padding: 20px;
+}
+hr{
+    width: 600px;
+    color: rgba(204, 35, 204, 0.82);
+}
+h3{
+    color: rgba(204, 35, 204, 0.82);
+    text-decoration: solid;
+    text-align: center;
+}
+.website img{
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.website{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+}
+.website a{
+    text-decoration: none;
+}
+.responsive{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.text1{
+    height: 30px;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgba(204, 35, 204, 0.82);
+    text-align: center;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+@media (min-width:600px) {
+    .responsive{
+        flex-direction: row;
+    }
+    .images img{
+        width: 45%;
+        margin: 10px;
+    }
+}
+#home{
+    float: right;
+}
+#home a{
+    text-decoration: none;
+    color: blue;
+}
+#home a:hover {
+    color: rgba(204, 35, 204, 0.82);
+}
